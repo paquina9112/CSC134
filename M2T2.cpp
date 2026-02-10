@@ -3,10 +3,11 @@ CSC - 134
 M2T2
 Alexis Paquin
 2/9/2026
-Recipt calculator
+Receipt calculator
 */
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() {
@@ -35,6 +36,7 @@ int main() {
     total_price = sub_total + tax_amount + tip_amount;
 
     //Print results
+    cout << setprecision(2) << fixed;
     cout << "YOUR ORDER" << endl << "-------------------------------" << endl;
     cout << num_meals << " x " << meal_name << "\t$" << meal_price << endl;
     cout << "Subtotal: \t\t$" << sub_total << endl;
