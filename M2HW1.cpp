@@ -44,12 +44,12 @@ int main() {
 
 
 
-    // Question 2 - crates sales
-    cout << "Question 2:" << endl;
-    
+    // Question 2 - crate sales
+    cout << "\nQuestion 2:" << endl;
+
     // Constants for cost and amount charged
-    const double costPerCubicFoot = 0.23;
-    const double chargePerCubicFoot = 0.50;
+    const double costPerCubicFoot = 0.30;
+    const double chargePerCubicFoot = 0.52;
 
     // Variables
     double length, width, height, volume, cost, charge, profit;
@@ -73,18 +73,18 @@ int main() {
 
     // Display results
     cout << "The volume of the crate is " << volume << " cubic feet." << endl;
-    cout << "Cost to build:: $" << cost << endl;
+    cout << "Cost to build: $" << cost << endl;
     cout << "Charge to customer: $" << charge << endl;
     cout << "Profit: $" << profit << endl;
 
 
 
     // Question 3
-    cout << "Question 3:" << endl;
+    cout << "\nQuestion 3:" << endl;
 
 
     // Question 4
-    cout << "Question 4:" << endl;
+    cout << "\nQuestion 4:" << endl;
 
 
     return 0;
