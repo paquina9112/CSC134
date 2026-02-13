@@ -24,7 +24,7 @@ int main() {
 
     // Input
     cout << "Enter your name: ";
-    cin >> name;
+    getline(cin, name);
     cout << "What is your account number? ";
     cin >> number;
     cout << "What is your current balance? $";
