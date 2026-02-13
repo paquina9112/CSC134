@@ -38,7 +38,7 @@ int main() {
 
     // Display results
     cout << "The volume of the crate is " << volume << " cubic feet." << endl;
-    cout << "Cost to build:: $" << cost << endl;
+    cout << "Cost to build: $" << cost << endl;
     cout << "Charge to customer: $" << charge << endl;
     cout << "Profit: $" << profit << endl;
 
