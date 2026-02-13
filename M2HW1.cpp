@@ -38,6 +38,7 @@ int main() {
     finalBalance = startingBalance + deposit - withdrawal;
 
     // Output
+    cout << "-----------------------------------------" << endl;
     cout << "Name on account: " << name << endl;
     cout << "Account number: " << number << endl;
     cout << "Current balance: $" << finalBalance << endl;
@@ -72,6 +73,7 @@ int main() {
     profit = charge - cost;
 
     // Display results
+    cout << "-------------------------------------------" << endl;
     cout << "The volume of the crate is " << volume << " cubic feet." << endl;
     cout << "Cost to build: $" << cost << endl;
     cout << "Charge to customer: $" << charge << endl;
