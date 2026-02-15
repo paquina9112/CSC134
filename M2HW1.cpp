@@ -84,6 +84,22 @@ int main() {
     // Question 3
     cout << "\nQuestion 3:" << endl;
 
+    // Variables
+    int num_pizza, slices, people, total_slices, slices_eaten;
+    const int slices_per_person = 3;
+
+    // Input
+    cout << "How many pizzas are you ordering?" << endl;
+    cin >> num_pizza;
+    cout << "How many slices are in each pizza?" << endl;
+    cin >> slices;
+    cout << "How many people will be there?" << endl;
+    cin >> people;
+
+    // Calculations
+    
+
+    // Output
     
 
     // Question 4
