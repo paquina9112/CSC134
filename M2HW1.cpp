@@ -85,7 +85,7 @@ int main() {
     cout << "\nQuestion 3:" << endl;
 
     // Variables
-    int num_pizza, slices, people, total_slices, slices_eaten;
+    int num_pizza, slices, people, total_slices, slices_eaten, slices_left;
     const int slices_per_person = 3;
 
     // Input
@@ -97,10 +97,14 @@ int main() {
     cin >> people;
 
     // Calculations
-    
+    total_slices = num_pizza * slices;
+    slices_eaten = people * slices_per_person;
+    slices_left = total_slices - slices_eaten;
 
     // Output
-    
+    cout << "You will have " << slices_left << " slices left over." << endl;
+
+
 
     // Question 4
     cout << "\nQuestion 4:" << endl;
