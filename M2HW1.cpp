@@ -81,7 +81,7 @@ int main() {
 
 
 
-    // Question 3
+    // Question 3 - pizza slices
     cout << "\nQuestion 3:" << endl;
 
     // Variables
@@ -106,9 +106,19 @@ int main() {
 
 
 
-    // Question 4
+    // Question 4 - FTCC cheer
     cout << "\nQuestion 4:" << endl;
 
+    // Variables
+    string school = "FTCC", team = "Trojans", letsGo = "Let's go";
+    string cheer1 = letsGo + " " + school;
+    string cheer2 = letsGo + " " + team;
+
+    // Output
+    cout << cheer1 << endl;
+    cout << cheer1 << endl;
+    cout << cheer1 << endl;
+    cout << cheer2 << endl;
 
     return 0;
 
