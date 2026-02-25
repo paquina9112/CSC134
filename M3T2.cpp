@@ -4,6 +4,7 @@ M3T2
 Alexis Paquin
 2/24/2026
 Random numbers
+Craps game
 */
 
 #include <iostream>
