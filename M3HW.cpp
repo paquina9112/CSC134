@@ -58,11 +58,19 @@ int main() {
     cin >> num_meals;
     cout << "Please enter 1 if the order is dine in, 2 if it is to go." << endl;
     cin >> in_out;
-    cout << "Tip amount? (min 0)" << endl;
-    cin >> tip_amount;
+
+    // Calculate values
+    sub_total = num_meals * meal_price;
+
+    if (in_out == 1) {
+        tip_amount = sub_total * .15;
+    }
+    else {
+        cout << "Tip amount? (min 0)" << endl;
+        cin >> tip_amount;
+    }
 
     // Calulate values
-    sub_total = num_meals * meal_price;
     tax_amount = sub_total * tax_rate;
     total_price = sub_total + tax_amount + tip_amount;
 
