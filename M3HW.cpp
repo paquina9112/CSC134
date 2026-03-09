@@ -41,6 +41,7 @@ int main() {
     string meal_name = "Burger Platter";
     int num_meals;
     double meal_price;
+    int in_out;
     double sub_total;
     double tax_rate = 0.08;
     double tip_amount;
@@ -53,8 +54,10 @@ int main() {
     cout << endl;
     cout << "What is the cost of your meal?" << endl;
     cin >> meal_price;
-    cout << "How many would you like" << endl;
+    cout << "How many would you like?" << endl;
     cin >> num_meals;
+    cout << "Please enter 1 if the order is dine in, 2 if it is to go." << endl;
+    cin >> in_out;
     cout << "Tip amount? (min 0)" << endl;
     cin >> tip_amount;
 
@@ -74,6 +77,7 @@ int main() {
     cout << "Total: \t\t\t$" << total_price << endl;
     cout << "THANK YOU COME AGAIN!" << endl;
 
+    
     // Question 3 - 
     cout << "\nQuestion 3:" << endl;
 
