@@ -7,6 +7,8 @@ Alexis Paquin
 
 #include <iostream>
 #include <iomanip>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 int main() {
@@ -122,8 +124,25 @@ int main() {
     cout << "Thank you for playing!" << endl;
 
 
-    // Question 4 - 
+    // Question 4 - Math practice
     cout << "\nQuestion 4:" << endl;
 
+    // random number generator
+    unsigned seed = time(0); 
+    srand(seed);
+    int num1 = rand() % 10; // 0-9
+    int num2 = rand() % 10; // 0-9
+    int answer;
 
+    cout << "What is " << num1 << " plus " << num2 << "?" << endl;
+    cin >> answer;
+
+    if (answer == num1 + num2) {
+        cout << "Correct" << endl;
+    } 
+    else {
+        cout << "Incorrect" << endl;
+    }
+
+    return 0;
 }
