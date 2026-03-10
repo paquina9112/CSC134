@@ -86,15 +86,44 @@ int main() {
     cout << "THANK YOU COME AGAIN!" << endl;
 
     
-    // Question 3 - 
+    // Question 3 - Football simulator
     cout << "\nQuestion 3:" << endl;
 
+    string choice; 
+
+    // question
+    cout << "Do you choose to throw or run the football?" << endl;
+    cout << "Type Throw or Run:"; 
+    cin >> choice;
+
+    if ("throw" == choice)
+        cout << "Interception! You've lost the game." << endl;
+    else 
+    {
+        cout << "You win...a first down!" << endl;
+        cout << "Do you want to kick or run the football?" << endl;
+        cin >> choice;
+
+        if ("kick" == choice)
+            cout << "You win...a field goal!" << endl;
+        else
+        {
+            cout << "You're at the ten yard line!" << endl;
+            cout << "Do you want to throw or run the football?" << endl;
+            cin >> choice;
+
+            if ( "run" == choice)
+                cout << "Sorry. You came up short." << endl;
+            else
+                cout << "You win...a touchdown!" << endl;
+        }
+    }
+
+    cout << "Thank you for playing!" << endl;
 
 
     // Question 4 - 
     cout << "\nQuestion 4:" << endl;
 
 
-
-    return 0;
 }
