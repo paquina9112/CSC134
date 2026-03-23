@@ -1,6 +1,6 @@
 /*
 CSC - 134
-M4HW1 - 
+M4HW1 - Silver
 Alexis Paquin
 3/22/2026
 Multipliction table
@@ -20,7 +20,7 @@ int main() {
     cin >> first_num;
 
     for ( int i=1; i<=12; i++ ) {
-        
+
         answer = first_num * i;
         cout << first_num << " times " << i << " is " << answer << endl;
 
