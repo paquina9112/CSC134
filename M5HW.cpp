@@ -139,9 +139,22 @@ int main() {
     }
 
 
-    // Question 5 - 
+    // Question 5 - Distance traveled
     cout << "\nQuestion 5:" << endl;
 
+    int speed, hours;
+
+    cout << "What is the speed of the vehicle in mph? ";
+    cin >> speed;
+    cout << "How many hours has it traveled? ";
+    cin >> hours;
+
+    cout << "Hour    Distance Traveled" << endl;
+    cout << "--------------------------" << endl;
+
+    for (int hour = 1; hour <= hours; hour++) {
+        cout << " " << hour << "\t\t" << speed * hour << endl;
+    }
 
     // Question 6 - 
     cout << "\nQuestion 6:" << endl;
