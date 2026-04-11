@@ -99,12 +99,14 @@ int main() {
     // Question 4 - Geometry calculator
     cout << "\nQuestion 4:" << endl;
 
+    // Variables
     const double pi = 3.14159;
     int choice;
     double radius, circleArea;
     double rectLength, rectWidth, rectArea;
     double triBase, triHeight, triArea;
 
+    // Input and output
     cout << "Geometry Calculator\n";
     cout << "1. Calculate the Area of a Circle\n";
     cout << "2. Calculate the Area of a Rectangle\n";
@@ -113,6 +115,7 @@ int main() {
     cout << "Enter your choice (1-4): ";
     cin >> choice;
 
+    // If statement
     if (choice == 1) {
         cout << "Enter the radius of the circle: ";
         cin >> radius;
@@ -142,8 +145,10 @@ int main() {
     // Question 5 - Distance traveled
     cout << "\nQuestion 5:" << endl;
 
+    // Variables
     int speed, hours;
 
+    // Input and output
     cout << "What is the speed of the vehicle in mph? ";
     cin >> speed;
     cout << "How many hours has it traveled? ";
@@ -157,6 +162,6 @@ int main() {
     }
 
     return 0;
-    
+
 }
 
