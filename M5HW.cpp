@@ -156,8 +156,7 @@ int main() {
         cout << " " << hour << "\t\t" << speed * hour << endl;
     }
 
-    // Question 6 - 
-    cout << "\nQuestion 6:" << endl;
-
+    return 0;
+    
 }
 
